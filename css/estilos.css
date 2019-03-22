@@ -1,0 +1,106 @@
+body{
+	background: url(../image/fondo4.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size : cover;
+	color: #000; 
+}
+/*p {
+	width: 50%;
+	height: 200px;
+	background: #ff0000;
+	margin: 20px 50px;
+	padding: 30px;
+	border: 10px solid #;
+}
+*/
+
+div{
+	width: 300px;
+	height: 180px;
+	background: #4A88F4;
+	color: #fff;
+	margin: 20px 50px;
+	padding: 30px;
+	border: 10px solid #fff;
+	display:inline-block;
+}
+
+.caja {
+	position:relative;
+	top:0;
+	bottom:0;
+	right:0;
+	left:100px;
+}
+
+.contenedor {
+	text-align: center;
+	position:relative;
+	top:-20;
+	bottom:0;
+	right:0;
+	left:70px;
+}
+.oso {
+	position:relative;
+	top:-24;
+	bottom:0;
+	right:0;
+	left:180px;
+}
+/*#contenedor {
+	position:relative;
+	top:-20;
+	bottom:0;
+	right:0;
+
+https://uniwebsidad.com/libros/referencia-css2/text-align   ver 
+
+http://www.mclibre.org/consultar/amaya/css/css-texto.html
+
+http://quesignificacolor.blogspot.com/p/tabla-colores-con-codigo.html
+
+	left:50px; 6495ed
+}*/
+
+p {
+	text-align: justify;
+	font-family:Arial, Helvetica, Verdana, Sans-serif, " Myriad Pro "; /*es para agregar el tipo de letra */
+	font-size:15px;
+	font-weight:bold;
+
+}
+
+cite{
+	color:#AFEEEE;
+	font-weight:bold;
+	font-size:18px;
+}
+
+h1{
+
+	text-align: center;
+	/*color:#FF1493;*/
+	color:#6495ED;
+	font-weight:bold;
+	font-size:40px;
+}
+
+h2{
+
+	text-align: center;
+	color:#000000;
+	font-weight:bold;
+	font-size:25px;
+}
+
+blockquote{
+/*FF69B1 */
+	
+	text-indent:25px;
+	text-align: justify;
+	color:#FFFFFF;
+	font-weight:normal;
+	font-size:15px;
+}
+

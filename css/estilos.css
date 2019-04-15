@@ -1,18 +1,11 @@
+/* esta es la hoja de estilos del html y con ella se le da forma, se centra y tamaño al archivo*/
 body{
 	background: url(../image/fondo4.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size : cover;
 	color: #000; 
 }
-/*p {
-	width: 50%;
-	height: 200px;
-	background: #ff0000;
-	margin: 20px 50px;
-	padding: 30px;
-	border: 10px solid #;
-}
-*/
+
 
 div{
 	width: 300px;
@@ -48,20 +41,6 @@ div{
 	right:0;
 	left:180px;
 }
-/*#contenedor {
-	position:relative;
-	top:-20;
-	bottom:0;
-	right:0;
-
-https://uniwebsidad.com/libros/referencia-css2/text-align   ver 
-
-http://www.mclibre.org/consultar/amaya/css/css-texto.html
-
-http://quesignificacolor.blogspot.com/p/tabla-colores-con-codigo.html
-
-	left:50px; 6495ed
-}*/
 
 p {
 	text-align: justify;
@@ -80,7 +59,7 @@ cite{
 h1{
 
 	text-align: center;
-	/*color:#FF1493;*/
+	color:antiquewhite;
 	color:#6495ED;
 	font-weight:bold;
 	font-size:40px;
@@ -89,18 +68,69 @@ h1{
 h2{
 
 	text-align: center;
-	color:#000000;
+	color:darkgreen;
 	font-weight:bold;
 	font-size:25px;
 }
 
 blockquote{
-/*FF69B1 */
 	
 	text-indent:25px;
 	text-align: justify;
-	color:#FFFFFF;
+	color:deeppink;
 	font-weight:normal;
 	font-size:15px;
 }
 
+
+.formulario{
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 0 0 20px 10px rgba(0,0,0,0.7);
+    position: relative;
+
+}
+.formulario__titulo{
+	text-align: center;
+	margin-top: 0;
+	color:darkred;
+
+}
+.formulario__input, .formulario__label, .formulario__submit{
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+
+}
+.formulario__input{
+	padding: 20px;
+	background: rgba(0,0,0,0.09);
+	border: 1px solid rgba(0,0,0,0.8);
+	margin-bottom: 40px;
+    text-align:right;
+
+}
+.formulario__input:focus + .formulario__label{
+   
+	margin-top: -140px;
+
+}
+.formulario__label{
+	padding-left: 20px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color: rgba(0,0,0,0.9);
+	transition: all 0.2s; 
+
+}
+.formulario__submit{
+	background: rgba(0,0,0,0.7);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+    align-content: center;
+}

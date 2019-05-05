@@ -18,25 +18,11 @@
         
         <!-- esta linea de codigo funciona "script" recolecta los datos del usuaio y los concatena para una mejor vista del usuario al visitar la pagina web -->
         
-        <script>    
+        <script>  
 
-            var nombre;
-            
-            
-            nombre = prompt ("Ingresa tu nombre: ");
-            edad = prompt ("Ingresa tu edad: ");
-            
-            //alert(nombre);
-            
-            document.write(nombre + "," + " " + edad + " " + "años"); 
-
-
-            //document.write(edad);
-
-            console.log(nombre);
-
-            //esto manda una alerta en pantalla
-
+        <?php
+        include_once '../js/js.js';
+        ?>
 
         </script>  
             
@@ -168,7 +154,7 @@ en los input coloque las caracteristicas que definen cada clausula (label), los 
           
     		<label for="" class="formulario__label">Correo:</label>
             <br/><br/>
-            <input type="number" class="formulario__input" id="edad" name="edad" required>
+            <input type="number" class="formulario__input" id="edad" name="edad" min=0 max=200 required>
           
             <label for="" class="formulario__label">Edad:</label>
             <br/><br/>

@@ -60,12 +60,12 @@
     
     <!-- esta linea de codigo funciona para llevar al usuario a visitar otras paginas donde puedan encontrar mas poemas y informacion para su conveniencia -->
     
-        <a class="osi" target = "_blank" href = "https://psicologiaymente.com/cultura/mejores-poemas-cortos"> Ir a Google... Mas poemas </a>
+        <a class="osi" target = "_blank" href = "https://psicologiaymente.com/cultura/mejores-poemas-cortos"> Ir a Google... Para Obtener Mas Poemas </a>
         <br /> 
 
     <!-- esta linea de codigo funciona enviarme un msj al email -->
     
-        <a class="osi" href = "mailto:amezquitadiana8445@gmail.com" title = "Enviar correo a Diana Amezquita"> Enviar Mail </a>
+        <a class="osi" href = "mailto:amezquitadiana8445@gmail.com" title = "Enviar correo a Diana Amezquita"> Enviar Email </a>
         <br />
 
         <hr />
@@ -126,7 +126,7 @@
             
     		<!--dentro del h2 tengo se coloca el titulo principal del formulario -->
             
-    		<h2 class="formulario__titulo">Deja Tus Datos y Sugerencias en Mensajes:</h2>
+    		<h2 class="formulario__titulo">Deja Tus Datos y Tus Sugerencias en Mensaje:</h2>
             
             <!-- br es para dar un espacio o salto de linea entre los escrito (datos a suministrar por el usuario)
 en los input coloque las caracteristicas que definen cada clausula (label), los type varian dependiendo del tipo de dato que se va a suministrar, los id y name nos sirven para el post, para poder hacer el archivo php y hacer el catura o recibo de los datos sumistrados por el usuario y donde dice required es porque ese campo es obligatorio a la hora de llenar el formulario -->

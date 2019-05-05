@@ -3,11 +3,11 @@ var nombre;
             
             
 nombre = prompt ("Ingresa tu nombre: ");
- edad = prompt ("Ingresa tu edad: ");
+edad = prompt ("Ingresa tu edad: ");
             
- //alert(nombre);
+//alert(nombre);
             
- document.write("Bienvenido(a)" + " " + nombre + "," + " " + edad + " " + "años"); 
+document.write("Bienvenido(a)" + " " + nombre + "," + " " + edad + " " + "años"); 
 
 
 //document.write(edad);

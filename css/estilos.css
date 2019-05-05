@@ -1,6 +1,6 @@
 /* esta es la hoja de estilos del html y con ella se le da forma, se centra y tamaño al archivo*/
 body{
-	background: url(../image/fondo4.jpg) no-repeat;
+	background: url(../image/fondo4.gif) no-repeat;
 	background-attachment: fixed;
 	background-size : cover;
 	color: #000; 
@@ -10,7 +10,7 @@ body{
 div{
 	width: 300px;
 	height: 180px;
-	background: #4A88F4;
+	background:fuchsia;
 	color: #fff;
 	margin: 20px 50px;
 	padding: 30px;
@@ -36,7 +36,7 @@ div{
 }
 .oso {
 	position:relative;
-	top:-24;
+	top:-64px;
 	bottom:0;
 	right:0;
 	left:180px;
@@ -51,7 +51,7 @@ p {
 }
 
 cite{
-	color:#AFEEEE;
+	color:rebeccapurple;
 	font-weight:bold;
 	font-size:18px;
 }
@@ -59,8 +59,7 @@ cite{
 h1{
 
 	text-align: center;
-	color:antiquewhite;
-	color:#6495ED;
+	color:firebrick;
 	font-weight:bold;
 	font-size:40px;
 }
@@ -68,7 +67,7 @@ h1{
 h2{
 
 	text-align: center;
-	color:darkgreen;
+	color: purple;
 	font-weight:bold;
 	font-size:25px;
 }
@@ -77,7 +76,7 @@ blockquote{
 	
 	text-indent:25px;
 	text-align: justify;
-	color:deeppink;
+	color:black;
 	font-weight:normal;
 	font-size:15px;
 }
@@ -133,4 +132,18 @@ blockquote{
 	cursor: pointer;
 	border: none;
     align-content: center;
+}
+.Carolina{
+	width: 350px;
+	height: 20px;
+	background:palevioletred;
+	color:purple;
+	padding: 0px;
+	border: 5px solid white;
+	align-content: center;
+	text-align: center;
+	margin-top:-20px;
+}
+.osi{
+	color:red;
 }

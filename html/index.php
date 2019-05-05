@@ -74,12 +74,12 @@
     
     <!-- esta linea de codigo funciona para llevar al usuario a visitar otras paginas donde puedan encontrar mas poemas y informacion para su conveniencia -->
     
-        <a target = "_blank" href = "https://psicologiaymente.com/cultura/mejores-poemas-cortos"> Ir a Google... Mas poemas </a>
+        <a class="osi" target = "_blank" href = "https://psicologiaymente.com/cultura/mejores-poemas-cortos"> Ir a Google... Mas poemas </a>
         <br /> 
 
     <!-- esta linea de codigo funciona enviarme un msj al email -->
     
-        <a href = "mailto:amezquitadiana8445@gmail.com" title = "Enviar correo a Diana Amezquita"> Enviar Mail </a>
+        <a class="osi" href = "mailto:amezquitadiana8445@gmail.com" title = "Enviar correo a Diana Amezquita"> Enviar Mail </a>
         <br />
 
         <hr />
@@ -115,20 +115,25 @@
         <br />
             
             <!-- esta linea de codigo funciona para mostrarle al usuario una imagen atraves de un link -->
-            
-        <a target = "_blank" href = "../image/ositos1.jpg"> Ir a la Imagen </a>
-
-        </p>
+        
+        <a class= "osi" target = "_blank" href = "../image/ositos1.jpg"> Ir a la Imagen </a>
+        <br/>
+        <br/>
+        <br/>
+        </p><aside class="Carolina">
+            <a class="Carolina" href="../app/leer.php">Presiona para Agregar, Leer o Editar un Poema</a></aside>
         </div>
     <!-- esta linea de codigo funciona  para mostrar en la pagina una imagen al usuario -->
     
 
         <span class = "oso"> <img src = "../image/ositos.jpg" alt = "Ositos de Peluche" title ="Logotipo Hecho por Diana" height = "230" /> </span>
-        
+        <br/>
+        <br/>
         <hr />
      
-        </table>
-
+    
+        
+        
 <!-- elegi el metodo post para hacer mi asignacion, ya que es el que domino -->
 
         <form method="POST" action="../php/captura.php" class="formulario">
@@ -175,13 +180,11 @@ en los input coloque las caracteristicas que definen cada clausula (label), los 
         
     		<label for="" class="formulario__label">Mensaje:</label>
             <br/><br/>
-    		<input type="submit" class="formulario__submit"></input>
+    		<input type="submit" class="formulario__submit">
             
     	</form>
             
 <!-- esta linea de codigo funciona para hacer la coneccion con el js -->
-
-        <script src="../js/form.js"></script>
 
     </body>
 

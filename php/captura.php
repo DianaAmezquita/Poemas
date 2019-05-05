@@ -54,7 +54,7 @@
         <!-- el div es para hacer un boton para volver a la pagina principal -->
         <br/><br/><br/>
         <div class="Diana">
-            <a class="Diana" href="../html/index.php"/>Volver al Inicio</a>
+            <a class="Diana" href="../html/index.php">Volver al Inicio</a>
         
         </div>
     </body>

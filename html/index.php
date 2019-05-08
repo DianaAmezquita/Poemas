@@ -4,23 +4,40 @@
 
         <title> Poemas </title> <!-- para el titulo -->
 
-        <meta charset = "UTF-8"><!-- esta linea de codigo funciona para poder escribir caracteres especiales en la pagina -->
-        <link href = "../css/estilos.css" rel = "stylesheet" type = "text/css" ><!-- esta linea de codigo funciona para agregar una hoja de estilos a la pagina -->
-        <link rel = "shortcut icon" type = "image/x-icon" href = "../image/favicon.jpg"><!-- este sirve para colocarle la imagen a la esquina izquierda superior (la cual es una rosa negra)-->
-        <meta name = "description" content = " los poemas son obras literarias, estan sujetos a los recuerso poeticos clasicos. " />
-        <!-- estas dos lineas de codigo son de facilidad para que el usuario encuente la pagina de ser lo que busca, es decir, que su funcion es dar una breve descripcion para que cuando el usuraio se meta a hacer una busqueda le salga de ser lo que el necesita -->
-        <meta name = "keywords" description = "poemas, versos, diseñar, crear, aprender. " />
+        <meta charset = "UTF-8"><!-- esta linea de codigo funciona para poder escribir caracteres
+         especiales en la pagina -->
+
+        <link href = "../css/estilos.css" rel = "stylesheet" type = "text/css" ><!-- esta linea 
+        de codigo funciona para agregar una hoja de estilos a la pagina -->
+
+        <link rel = "shortcut icon" type = "image/x-icon" href = "../image/favicon.jpg"><!-- este 
+        irve para colocarle la imagen a la esquina izquierda superior (la cual es una rosa negra)-->
+
+        <meta name = "description" content = " los poemas son obras literarias, estan sujetos 
+        a los recuerso poeticos clasicos. " />
+        <!-- estas dos lineas de codigo son de facilidad para que el usuario encuente la pagina 
+        de ser lo que busca, es decir, que su funcion es dar una breve descripcion para que 
+        cuando el usuraio se meta a hacer una busqueda le salga de ser lo que el necesita -->
+
+        <meta name = "keywords" description = "poemas, versos, diseñar, crear, aprender. " /> <!--
+            hace mas rapida la busqueda de la pagina, es decir que , si el contenido que esta en 
+            la pagina le es de utilidad al usuario esta aparecera entre las primeras opciones-->
 
     </head>
 
 
     <body>
         
-        <!-- esta linea de codigo funciona "script" recolecta los datos del usuaio y los concatena para una mejor vista del usuario al visitar la pagina web -->
+        <!-- esta linea de codigo funciona "script" recolecta los datos del usuaio y 
+        los concatena para una mejor vista del usuario al visitar la pagina web -->
         
         <script>  
-
+    
         <?php
+        // hice este include para el escript de inicio, el cual hace que el usuario
+        /// coloque su nombre y su edad y luego lo concatena y coloca en una esquina
+        // la izquierda 
+
         include_once '../js/js.js';
         ?>
 
@@ -44,7 +61,11 @@
     
             <br>
 
-            <!-- este parrafo de codigo funciona como definicion de la pagina, el blockquote lo coloque para no crear una clase a la hora de trabajar en el css, los codigos con i hace que la palabra se coloque en italica, los span para dar hacer enfasis en el tema del que trata la pgina y el strong hace lo mismo y lo coloca en negrilla -->
+            <!-- este parrafo de codigo funciona como definicion de la pagina, 
+            el blockquote lo coloque para no crear una clase a la hora de trabajar 
+            en el css, los codigos con i hace que la palabra se coloque en italica, 
+            los span para dar hacer enfasis en el tema del que trata la pgina y el strong 
+            hace lo mismo y lo coloca en negrilla -->
             
             <br>
             <blockquote> Un <i> poema </i> ​es una obra de <span> poesìa </span>, tradicionalmente de cierta extensiòn.​ Lo habitual es que se componga en verso, èste o no sujeto a los recursos poèticos clàsicos de la mètrica, el ritmo y la rima; aunque tambièn hay <strong> poemas </strong> en prosa. Hay muchas clases de poemas dentro de la poesía española y todavía más si entramos a discutir la poesía universal. En esta entrada encontrarás todo lo referente a la poesía épica y lírica y cabe destacar también que las distintas tradiciones literarias han gestado un sinfín de estilos, formas, ritmos, sonidos y melodías que han llegado hasta día de hoy.</blockquote>
@@ -58,7 +79,8 @@
 
         <br /> <br />
     
-    <!-- esta linea de codigo funciona para llevar al usuario a visitar otras paginas donde puedan encontrar mas poemas y informacion para su conveniencia -->
+    <!-- esta linea de codigo funciona para llevar al usuario a visitar otras paginas 
+    donde puedan encontrar mas poemas y informacion para su conveniencia -->
     
         <a class="osi" target = "_blank" href = "https://psicologiaymente.com/cultura/mejores-poemas-cortos"> Ir a Google... Para Obtener Mas Poemas </a>
         <br /> 
@@ -73,6 +95,10 @@
     <!-- estas lineas de codigos funcionan para mostrar los verson con saltos de lineas  -->
 
         <h2> Por Ejemplo </h2>
+
+        <!-- lo coloque dentro de un div para colocarle una clase y poderlo mover y darle un 
+        estilo diferente al poema que se muestra a continuacion -->
+
         <div class = "contenedor">
         <p>
 
@@ -100,7 +126,8 @@
         <br />
         <br />
             
-            <!-- esta linea de codigo funciona para mostrarle al usuario una imagen atraves de un link -->
+            <!-- esta linea de codigo funciona para mostrarle al usuario una imagen 
+            atraves de un link -->
         
         <a class= "osi" target = "_blank" href = "../image/ositos1.jpg"> Ir a la Imagen </a>
         <br/>
@@ -120,16 +147,21 @@
     
         
         
-<!-- elegi el metodo post para hacer mi asignacion, ya que es el que domino -->
-
+        <!-- elegi el metodo post para hacer mi asignacion, ya que es el que domino -->
+        
         <form method="POST" action="../php/captura.php" class="formulario">
             
     		<!--dentro del h2 tengo se coloca el titulo principal del formulario -->
             
     		<h2 class="formulario__titulo">Deja Tus Datos y Tus Sugerencias en Mensaje:</h2>
             
-            <!-- br es para dar un espacio o salto de linea entre los escrito (datos a suministrar por el usuario)
-en los input coloque las caracteristicas que definen cada clausula (label), los type varian dependiendo del tipo de dato que se va a suministrar, los id y name nos sirven para el post, para poder hacer el archivo php y hacer el catura o recibo de los datos sumistrados por el usuario y donde dice required es porque ese campo es obligatorio a la hora de llenar el formulario -->
+            <!-- br es para dar un espacio o salto de linea entre los escrito (datos a 
+            suministrar por el usuario)
+            en los input coloque las caracteristicas que definen cada clausula (label), 
+            los type varian dependiendo del tipo de dato que se va a suministrar, los id y 
+            name nos sirven para el post, para poder hacer el archivo php y hacer el catura 
+            o recibo de los datos sumistrados por el usuario y donde dice required es porque 
+            ese campo es obligatorio a la hora de llenar el formulario -->
             
             <br/><br/>
     		<input type="text" class="formulario__input" id="nombre" name="nombre" required >
@@ -167,6 +199,8 @@ en los input coloque las caracteristicas que definen cada clausula (label), los 
     		<label for="" class="formulario__label">Mensaje:</label>
             <br/><br/>
     		<input type="submit" class="formulario__submit">
+
+            
             
     	</form>
             

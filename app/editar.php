@@ -1,5 +1,10 @@
 <?php
-// echo 'editar.php?id=1&peliculas=Titanic&descripcion=es una pelicula estadounidense dramatica de catastrofe de 1997 dirigida y escrita por James Cameron y protagonizada por Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Gloria Stuart y Bill Paxton. La trama, una epopeya romantica, relata la relacion de Jack Dawson y Rose DeWitt Bukater, dos jovenes que se conocen y se enamoran a bordo del transatlantico RMS Titanic en su viaje inaugural desde Southampton, Inglaterra, a Nueva York, EE. UU., en abril de 1912. ';
+// echo 'editar.php?id=1&peliculas=Titanic&descripcion=es una pelicula estadounidense
+// dramatica de catastrofe de 1997 dirigida y escrita por James Cameron y protagonizada 
+//por Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Gloria Stuart y Bill Paxton.
+// La trama, una epopeya romantica, relata la relacion de Jack Dawson y Rose DeWitt Bukater, 
+//dos jovenes que se conocen y se enamoran a bordo del transatlantico RMS Titanic en su viaje 
+//inaugural desde Southampton, Inglaterra, a Nueva York, EE. UU., en abril de 1912. ';
 // echo '<br>';
 
 $id=$_GET['id'];
@@ -26,4 +31,6 @@ $sentencia_editar=null;
 //para redireccionar los acampos
 header('location:leer.php');
 
+/// aqui es donde se crea el codigo para editar un poema de la pgina y a su vez se guarde en la 
+// base de datos de la pagina
 ?>

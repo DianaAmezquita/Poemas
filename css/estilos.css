@@ -3,9 +3,10 @@ body{
 	background: url(../image/fondo4.gif) no-repeat;
 	background-attachment: fixed;
 	background-size : cover;
-	color: #000; 
+	color:navy; 
 }
-
+/* el body es el que le da estilo al fondo de la pagina  y letras en general en mi caso las 
+letras del script*/
 
 div{
 	width: 300px;
@@ -18,6 +19,9 @@ div{
 	display:inline-block;
 }
 
+/*el div le da estilo al poema que encerre en un div, con el cual cree una caja donde encerre
+el poema para darle un toque diferente*/
+
 .caja {
 	position:relative;
 	top:0;
@@ -25,7 +29,8 @@ div{
 	right:0;
 	left:100px;
 }
-
+/* todos los que son .algo son clase que se le cree a las distintas imagenes y versos de la pagina
+para poderlos mover de lugar con el ccs y que no quedaran montados uno encima del otro*/
 .contenedor {
 	text-align: center;
 	position:relative;
@@ -44,17 +49,19 @@ div{
 
 p {
 	text-align: justify;
-	font-family:Arial, Helvetica, Verdana, Sans-serif, " Myriad Pro "; /*es para agregar el tipo de letra */
+	font-family:Arial, Helvetica, Verdana, Sans-serif, " Myriad Pro "; 
+	/*es para agregar el tipo de letra */
 	font-size:15px;
 	font-weight:bold;
-
 }
+/* p es para darle un tipo de letra y como deseo posicionarlo dentro de la pagina*/
 
 cite{
 	color:royalblue;
 	font-weight:bold;
 	font-size:18px;
 }
+/*la cite la hice para cambiarle el color a la letra del autor ()mi nombre) y su tamaño*/
 
 h1{
 
@@ -63,7 +70,7 @@ h1{
 	font-weight:bold;
 	font-size:40px;
 }
-
+/* las h son titulos que  tiene la pagina y le agregue color y los posicione  en el centro*/
 h2{
 
 	text-align: center;
@@ -81,6 +88,8 @@ blockquote{
 	font-size:15px;
 }
 
+/* los .formulario son los que conforman el formulario de la pagina y con ello le di la imagen 
+posee actualmente*/
 
 .formulario{
 	width: 500px;

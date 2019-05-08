@@ -1,6 +1,15 @@
 
 <?php
 
+// aqui es la pagina principal donde se lee, agrega, borra y edita. todo esto queda guardado
+//en la base de datos de la pagina y ayuda al usuario a borrar y agregar las cosas que le sean 
+///de preferencia o gusto
+// utilice boostrap porque en uno de los videos que vi usaban este framework para colocar el icono
+//de editar y eliminar y lo vi practico, motivo por el cual se puede ver un poco de boostrap en 
+//la parte de la conexion con este metodo.
+
+
+
 include_once 'app.php';
 //echo ' desde el archivo index';
 // se realizo la operacion de leer
@@ -28,7 +37,11 @@ if($_POST){
     header('location:leer.php');
 }
 
+// para la conexion de la base de datos use PDO la cual es unaa clase muy usada para ello
+//y sin importar el controlador su nombre es PDO
+///lo que dice POD es una variable creada por mi (por si se ve confuso)
 // aqui se realizo toda la parte de edicion de la informacion existente
+
 if($_GET){
     $id=$_GET['id'];
     $sql_unico='SELECT * FROM dca_peliculas_tabla WHERE id=?';
@@ -59,22 +72,26 @@ if($_GET){
     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
     crossorigin="anonymous">
-    <!-- aqui se hace la conexion con la hoja de estilos y coloque el icono de la pagina de inicio
-    el titulo de la pagina -->
+    <!-- aqui se hace la conexion con la hoja de estilos y coloque el icono de la pagina de 
+    inicio el titulo de la pagina -->
+
     <link rel = "stylesheet" href = "../css/Estilos.1.css">
     <link rel = "shortcut icon" type = "image/x-icon" href = "../image/tu.jpg">
     <title>Poemas Personalizados</title>
     
   </head>
   <body>
+
       <!-- aqui comence a desarrollar el codigo para mostar en la pagina los datos de lectura,
     donde se agrega, y elimina de la pagina -->
+
     <h1> Bienvenidos(as) Personaliza tu Poema.</h1>
     <h2 class="ml-5" > Poemas: </h2>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <!-- en esta parte se se crea con bustra los iconos para editar y agregar informacion-->
+                <!-- en esta parte se se crea con bustra los iconos para editar y agregar 
+                informacion-->
                 <?php foreach($resultado as $dato): ?>
                 <div class="alert alert-primary " role="alert">
                     <a href="eliminar.php?id=<?php echo $dato['id'] ?>" class="float-right ml-2">

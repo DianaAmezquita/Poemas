@@ -17,4 +17,6 @@ $sentencia_eliminar=null;
 header('location:leer.php');
 
 
+/// es este lugar se crea la parte de borrado de poemas para que el usuario borre 
+//el poema que no es de su agrado.
 ?>
